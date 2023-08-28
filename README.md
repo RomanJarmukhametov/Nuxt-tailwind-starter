@@ -210,4 +210,4 @@ In this guide, we've meticulously laid out the steps to craft a Nuxt3 applicatio
 **Clone the repository and start your project!**
 
 Happy coding, and best of luck with your projects!
-# Nuxt-tailwind-starter
+git 
