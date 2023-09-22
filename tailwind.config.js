@@ -9,7 +9,9 @@ module.exports = {
     "./*.{vue,js,ts}",
     "./nuxt.config.{js,ts}",
   ],
-  plugins: [require("@tailwindcss/forms")],
+  plugins: [
+    require("@tailwindcss/forms", "@tailwindcss/typography", "@tailwindcss/aspect-ratio"),
+  ],
   theme: {
     fontFamily: {
       sans: "Inter, sans-serif",
