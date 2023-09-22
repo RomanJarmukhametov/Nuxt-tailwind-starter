@@ -14,7 +14,8 @@ export default defineNuxtConfig({
     'nuxt-schema-org',
     'nuxt-simple-sitemap',
     'nuxt-gtag',
-    '@vueuse/motion/nuxt'
+    '@vueuse/motion/nuxt',
+    '@formkit/auto-animate/nuxt'
   ],
 
    headlessui: {
