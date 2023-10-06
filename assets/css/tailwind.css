@@ -15,7 +15,7 @@
 }
 
 .markdown p {
-    @apply mt-6 text-lg leading-8 text-gray-600
+    @apply mt-6 text-lg leading-8 text-gray-600;
 }
 
 .markdown a {
@@ -31,11 +31,15 @@
 }
 
 .markdown ul {
-    @apply list-disc pl-5 my-2;
+    @apply list-disc pl-5 mt-4;
 }
 
 .markdown ol {
-    @apply list-decimal pl-5 my-2;
+    @apply list-decimal pl-5 mt-4;
+}
+
+.markdown li {
+    @apply my-2 text-lg leading-8 text-gray-600;
 }
 
 .markdown blockquote {

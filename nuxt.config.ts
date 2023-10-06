@@ -11,11 +11,9 @@ export default defineNuxtConfig({
     'nuxt-headlessui',
     '@nuxtjs/i18n',
     '@nuxt/image',
-    'nuxt-schema-org',
-    'nuxt-simple-sitemap',
-    'nuxt-gtag',
     '@vueuse/motion/nuxt',
-    '@formkit/auto-animate/nuxt'
+    '@formkit/auto-animate/nuxt',
+    '@nuxt/content',
   ],
 
    headlessui: {
@@ -33,9 +31,8 @@ export default defineNuxtConfig({
     },
   },
 
-  gtag: {
-    // use actual ID here
-    id: 'G-XXXXXXXXXX' 
-  }
+   content: {
+    documentDriven: true
+  },
 
 })
