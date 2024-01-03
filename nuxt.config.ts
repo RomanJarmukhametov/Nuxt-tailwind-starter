@@ -3,36 +3,36 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
 
   ssr: true,
-  
-  css: ['@/assets/css/inter.css'],
-  
+
+  css: ["@/assets/css/inter.css"],
+
   modules: [
-    '@nuxtjs/tailwindcss',
-    'nuxt-headlessui',
-    '@nuxtjs/i18n',
-    '@nuxt/image',
-    '@vueuse/motion/nuxt',
-    '@formkit/auto-animate/nuxt',
-    '@nuxt/content',
+    "@nuxtjs/tailwindcss",
+    "nuxt-headlessui",
+    "@nuxtjs/i18n",
+    "@nuxt/image",
+    "@vueuse/motion/nuxt",
+    "@formkit/auto-animate/nuxt",
+    "@nuxt/content",
+    "@vueuse/nuxt",
   ],
 
-   headlessui: {
-        prefix: 'Headless'
+  headlessui: {
+    prefix: "Headless",
   },
-   
+
   i18n: {
-    locales: ['en', 'kk'],
-    defaultLocale: 'en',
-    strategy: 'prefix_except_default',
+    locales: ["en", "kk"],
+    defaultLocale: "en",
+    strategy: "prefix_except_default",
     detectBrowserLanguage: {
       useCookie: true,
-      cookieKey: 'i18n_redirected',
+      cookieKey: "i18n_redirected",
       alwaysRedirect: true,
     },
   },
 
-   content: {
-    documentDriven: true
+  content: {
+    documentDriven: true,
   },
-
-})
+});
